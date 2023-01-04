@@ -7,6 +7,11 @@
         path = ./python;
         description = "Python development environment";
       };
+
+      nodejs = {
+        path = ./nodejs;
+        description = "Node.js development environment";
+      };
     };
   };
 }

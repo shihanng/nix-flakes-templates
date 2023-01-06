@@ -20,11 +20,6 @@
                 nodePackages.npm
                 nodePackages.yarn
               ];
-
-              shellHook = ''
-                RCFILE=".envrc"
-                grep -qxF 'layout node' $RCFILE || echo 'layout node' >> $RCFILE
-              '';
             };
         }
       );

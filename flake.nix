@@ -13,7 +13,7 @@
         description = "Node.js development environment";
       };
 
-      "terraform-v0.15" = {
+      terraform-v0-15 = {
         path = ./terraform-v0.15;
         description = "Terraform v0.15.x development environment";
       };

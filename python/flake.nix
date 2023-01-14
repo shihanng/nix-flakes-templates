@@ -15,6 +15,17 @@
                 poetry
               ];
             };
+
+          devShells."3_9" =
+            let
+              pyPkgs = pkgs.python39Packages;
+            in
+            pkgs.mkShell {
+              buildInputs = [
+                pyPkgs.python
+                pkgs.poetry
+              ];
+            };
         }
       );
 }

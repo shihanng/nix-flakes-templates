@@ -17,6 +17,11 @@
         path = ./terraform-v0.15;
         description = "Terraform v0.15.x development environment";
       };
+
+      rustup = {
+        path = ./rustup;
+        description = "Rust development environment with Rustup";
+      };
     };
   };
 }

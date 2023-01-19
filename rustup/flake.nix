@@ -18,6 +18,7 @@
               pkgs.llvmPackages_latest.llvm
               pkgs.llvmPackages_latest.bintools
               pkgs.llvmPackages_latest.lld
+              pkgs.libiconv
             ];
           RUSTC_VERSION = pkgs.lib.readFile ./rust-toolchain;
 

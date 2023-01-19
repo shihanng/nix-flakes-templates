@@ -1,4 +1,4 @@
-# https://johns.codes/blog/rust-enviorment-and-docker-build-with-nix-flakes
+# https://nixos.wiki/wiki/Rust#Installation_via_rustup
 {
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
